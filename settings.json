@@ -42,7 +42,7 @@
         "workbench.settings.enableNaturalLanguageSearch": false,
         "workbench.editor.enablePreview": false,
         "workbench.editor.revealIfOpen": true,
-        "workbench.colorTheme": "Cobalt2",
+        "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
         "workbench.editor.showTabs": true,
         "workbench.sideBar.location": "right",
         "workbench.colorCustomizations": {
@@ -223,9 +223,9 @@
         "gitlens.blame.separateLines": false,
         "python.linting.pylintEnabled": true,
         "python.linting.enabled": true,
-        "python.linting.pylamaEnabled": false,
-        "python.linting.banditEnabled": false,
-        "python.pythonPath": "C:\\Users\\iemergi\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+        "python.pythonPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/python",
+        "python.linting.pylintPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/pylint",
+        "python.formatting.autopep8Path": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/autopep8",
         "partialDiff.enableTelemetry": false,
         "partialDiff.commandsOnContextMenu": {
             "markSection1": true,
@@ -247,4 +247,6 @@
         "terminal.integrated.shell.linux": "/bin/bash",
         "terminal.integrated.copyOnSelection": true,
         "terminal.integrated.cursorBlinking": true,
+        "shellcheck.customArgs": ["-P SCRIPTDIR", "-x", "-a"],
+        "shellcheck.executablePath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils/bin/shellcheck"
 }
