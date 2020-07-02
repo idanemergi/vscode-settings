@@ -1,77 +1,21 @@
 {
-        "C_Cpp.intelliSenseCachePath": "/local/iemergi/.vscode",
+        "C_Cpp.intelliSenseCachePath": "~/.vscode-server",
         "C_Cpp.intelliSenseCacheSize": 10240,
-        "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-        "editor.minimap.enabled": false,
-        "editor.minimap.renderCharacters": false,
-        "editor.minimap.maxColumn": 200,
-        "editor.smoothScrolling": true,
-        "editor.cursorBlinking": "phase",
-        "editor.cursorSmoothCaretAnimation": false,
-        "editor.rulers": [
-            80,
-        ],
-        "editor.formatOnType": true,
-        "editor.renderLineHighlight": "line",
-        "editor.detectIndentation": true,
-        "editor.renderWhitespace": "boundary",
-        "editor.selectionHighlight": true,
-        "editor.roundedSelection": true,
-        "editor.fontSize": 17,
-        "editor.tabSize": 8,
-        "editor.tokenColorCustomizations": {
-            "textMateRules": [
-                {
-                    "scope": [
-                        "comment",
-                    ],
-                    "settings": {
-                        "fontStyle": "italic bold",
-                    }
-                }
-            ],
-        },
-        "files.trimTrailingWhitespace": true,
-        "files.autoSaveDelay": 5000,
-        "files.autoSave": "off",
-        "files.associations": {
-            "*.txt": "log"
-        },
-        "workbench.startupEditor": "none",
-        "workbench.iconTheme": "vscode-icons",
-        "workbench.settings.enableNaturalLanguageSearch": false,
-        "workbench.editor.enablePreview": false,
-        "workbench.editor.revealIfOpen": true,
-        "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
-        "workbench.editor.showTabs": true,
-        "workbench.sideBar.location": "right",
-        "workbench.colorCustomizations": {
-            "editor.findMatchHighlightBorder": "#2f00ff",
-            "editorRuler.foreground": "#ff0000",
-            "editor.lineHighlightBorder": "#c2a4a4",
-            "editorWhitespace.foreground": "#ffffff",
-            "editor.selectionHighlightBackground": "#213fa0",
-            "editor.selectionHighlightBorder": "#213fa0",
-        },
         "C_Cpp.dimInactiveRegions": true,
         "C_Cpp.workspaceSymbols": "All",
-        "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+        "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
         "C_Cpp.intelliSenseEngine": "Default",
         "C_Cpp.intelliSenseEngineFallback": "Disabled",
         "C_Cpp.autocomplete": "Default",
         "C_Cpp.default.compilerPath": "",
-        "C_Cpp.default.intelliSenseMode": "gcc-x64",
-        "C_Cpp.default.cStandard": "c11",
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "C_Cpp.default.cStandard": "c99",
         "C_Cpp.default.cppStandard": "c++17",
+        "C_Cpp.autoAddFileAssociations": false,
         "bookmarks.wrapNavigation": true,
         "bookmarks.navigateThroughAllFiles": true,
         "doxdocgen.generic.boolReturnsTrueFalse": false,
-        "window.zoomLevel": 0,
-        "telemetry.enableTelemetry": false,
-        "telemetry.enableCrashReporter": false,
-        "checkpatch.checkpatchArgs": [
-            "--no-signoff"
-        ],
+        "doxdocgen.generic.linesToGet": 10,
         "cSpell.ignorePaths": [
             "**/pp-rdl-headers/*_regs.h",
         ],
@@ -171,7 +115,7 @@
         ],
         "cSpell.allowCompoundWords": true,
         "cSpell.spellCheckDelayMs": 3000,
-        "cSpell.enabledLanguageIds": [
+        "cSpell.enableFiletypes": [
             "c",
             "cpp",
             "git-commit",
@@ -187,13 +131,12 @@
         "scm.diffDecorationsGutterWidth": 5,
         "clipboard-manager.preview": false,
         "clipboard-manager.snippet.enabled": false,
-        "breadcrumbs.enabled": false,
-        "doxdocgen.generic.linesToGet": 10,
+        "todo-tree.tree.showScanModeButton": false,
         "todo-tree.tree.autoRefresh": true,
         "todo-tree.tree.filterCaseSensitive": false,
         "todo-tree.regex.regexCaseSensitive": false,
         "todo-tree.tree.showCountsInTree": true,
-        "todo-tree.tree.showTagsFromOpenFilesOnly": false,
+        "todo-tree.tree.scanMode": "workspace",
         "todo-tree.tree.grouped": true,
         "todo-tree.general.statusBar": "tags",
         "todo-tree.general.tags": [
@@ -226,27 +169,8 @@
         "python.pythonPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/python",
         "python.linting.pylintPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/pylint",
         "python.formatting.autopep8Path": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/autopep8",
-        "partialDiff.enableTelemetry": false,
-        "partialDiff.commandsOnContextMenu": {
-            "markSection1": true,
-            "markSection2AndTakeDiff": true,
-            "diffSelectionWithClipboard": true,
-            "diffVisibleEditors": true,
-        },
-        "[cpp]": {
-            "editor.defaultFormatter": "ms-vscode.cpptools"
-        },
-        "[c]": {
-            "editor.defaultFormatter": "ms-vscode.cpptools"
-        },
         "files.enableTrash": false,
-        "vsicons.dontShowNewVersionMessage": true,
-        "terminal.integrated.fontSize": 17,
-        "terminal.integrated.rendererType": "dom",
-        "terminal.integrated.scrollback": 1000000,
         "terminal.integrated.shell.linux": "/bin/bash",
-        "terminal.integrated.copyOnSelection": true,
-        "terminal.integrated.cursorBlinking": true,
         "shellcheck.customArgs": ["-P SCRIPTDIR", "-x", "-a"],
         "shellcheck.executablePath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils/bin/shellcheck"
 }
