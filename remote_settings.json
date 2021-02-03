@@ -1,6 +1,6 @@
 {
         "C_Cpp.intelliSenseCachePath": "~/.vscode-server",
-        "C_Cpp.intelliSenseCacheSize": 10240,
+        "C_Cpp.intelliSenseCacheSize": 20480,
         "C_Cpp.dimInactiveRegions": true,
         "C_Cpp.workspaceSymbols": "All",
         "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
@@ -172,5 +172,6 @@
         "files.enableTrash": false,
         "terminal.integrated.shell.linux": "/bin/bash",
         "shellcheck.customArgs": ["-P SCRIPTDIR", "-x", "-a"],
-        "shellcheck.executablePath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils/bin/shellcheck"
+        "shellcheck.executablePath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils/bin/shellcheck",
+        "editor.tabSize": 8
 }
