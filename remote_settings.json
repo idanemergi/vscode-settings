@@ -1,5 +1,5 @@
 {
-        "C_Cpp.intelliSenseCachePath": "~/.vscode-server",
+        "C_Cpp.intelliSenseCachePath": "/home/iemergi/.vscode-server",
         "C_Cpp.intelliSenseCacheSize": 20480,
         "C_Cpp.dimInactiveRegions": true,
         "C_Cpp.workspaceSymbols": "All",
@@ -8,7 +8,7 @@
         "C_Cpp.intelliSenseEngineFallback": "Disabled",
         "C_Cpp.autocomplete": "Default",
         "C_Cpp.default.compilerPath": "",
-        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
         "C_Cpp.default.cStandard": "c99",
         "C_Cpp.default.cppStandard": "c++17",
         "C_Cpp.autoAddFileAssociations": false,
@@ -164,14 +164,24 @@
         },
         "gitlens.advanced.telemetry.enabled": false,
         "gitlens.blame.separateLines": false,
-        "python.linting.pylintEnabled": true,
-        "python.linting.enabled": true,
-        "python.pythonPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/python",
-        "python.linting.pylintPath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/pylint",
-        "python.formatting.autopep8Path": "/nfs/site/proj/chdsw/dev/users/iemergi/utils.py/bin/autopep8",
         "files.enableTrash": false,
-        "terminal.integrated.shell.linux": "/bin/bash",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash",
+                "icon": "terminal-bash"
+            },
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.copyOnSelection": true,
         "shellcheck.customArgs": ["-P SCRIPTDIR", "-x", "-a"],
         "shellcheck.executablePath": "/nfs/site/proj/chdsw/dev/users/iemergi/utils/bin/shellcheck",
-        "editor.tabSize": 8
+        "editor.tabSize": 8,
+        "remote.autoForwardPortsSource": "output",
+        "bracket-pair-colorizer-2.activeScopeCSS": [
+
+            "borderStyle : solid",
+            "borderWidth : 1px",
+            "borderColor : {color}",
+            "opacity: 0.5"
+        ]
 }
